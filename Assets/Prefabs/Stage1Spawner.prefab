@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8145398705134004366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8145398705134004368}
+  - component: {fileID: 8145398705134004369}
+  m_Layer: 0
+  m_Name: Stage1Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8145398705134004368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8145398705134004366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8145398705134004369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8145398705134004366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5aabcf818682244a6d9e57aa3a07b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCS:
+  - {fileID: 7928046004784017545, guid: 3a03750553f55af4dbdf03961ce2c4d6, type: 3}
+  - {fileID: 7928046004784017545, guid: 278915f42460f9742bd6061e2fd980dc, type: 3}
+  Wave:
+  - Waves:
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 3862659542135117540, guid: 14b48f42eca13b342a59aea88f100ab6, type: 3}
+  - Waves:
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 3862659542135117540, guid: 14b48f42eca13b342a59aea88f100ab6, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 3862659542135117540, guid: 14b48f42eca13b342a59aea88f100ab6, type: 3}
+  - Waves:
+    - {fileID: 6760631928115051406, guid: 6841b60a8d56dc5488e72edc8f1a16a7, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 6760631928115051406, guid: 6841b60a8d56dc5488e72edc8f1a16a7, type: 3}
+    - {fileID: 3862659542135117540, guid: 14b48f42eca13b342a59aea88f100ab6, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+  - Waves:
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+    - {fileID: 6760631928115051406, guid: 6841b60a8d56dc5488e72edc8f1a16a7, type: 3}
+    - {fileID: 7410879215762266230, guid: 90819be1988e3044aa359b718a292b41, type: 3}
+  - Waves:
+    - {fileID: 3862659542135117540, guid: 14b48f42eca13b342a59aea88f100ab6, type: 3}
+    - {fileID: 6760631928115051406, guid: 6841b60a8d56dc5488e72edc8f1a16a7, type: 3}
+    - {fileID: 3862659542135117540, guid: 14b48f42eca13b342a59aea88f100ab6, type: 3}
+    - {fileID: 6760631928115051406, guid: 6841b60a8d56dc5488e72edc8f1a16a7, type: 3}
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+  - Waves:
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+    - {fileID: 6760631928115051406, guid: 6841b60a8d56dc5488e72edc8f1a16a7, type: 3}
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+    - {fileID: 5760418343330096426, guid: ae3d88b7431e3ee41b698e4c396ef3d2, type: 3}
+  - Waves:
+    - {fileID: 7613395694264092457, guid: 6df633a9b3dc8254d8e13ff348db3071, type: 3}
+  isCovidSpawnable: 1
+  NPCSpawnTime: 3
+  WhiteCellSpawnPercentage: 50
+  RedCellSpawnPercentage: 10
